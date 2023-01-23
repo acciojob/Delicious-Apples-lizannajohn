@@ -1,1 +1,209 @@
 /* your code here */
+body
+{
+    background-color:lightgreen;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+}
+
+#background
+{
+    background-color: antiquewhite;
+    height: 37em;
+    width: 35em;
+    display: flex;
+    border-radius: 5px;
+    /* z-index: 1; */
+}
+
+/* Left Section */
+#background #left
+{
+    width: 25em;
+    height: inherit;
+}
+
+#background #left #overlap
+{
+    background-color: antiquewhite;
+    width: 275px;
+    height: 540px;
+    /* z-index: 1; */
+    margin-top: 25px;
+    margin-left: -75px;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    /* padding: 0; */
+    z-index: 3;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+#overlap #top #icons
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: lightgreen;
+    z-index: 0;
+    /* border: 1px solid black; */
+}
+
+#overlap #top #imgbanner
+{
+    width: inherit;
+    height: 365px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#overlap #top #imgbanner img
+{
+    margin-left: -95px;
+    height: 290px;
+    width: 290px;
+    margin-top: 18px;
+    /* text-align: center; */
+}
+
+#bottom #appleviews
+{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 43px;
+}
+
+#appleviews .views img
+{
+    height: 45px;
+    border: 1px solid lightgray;
+}
+
+/* Right Section */
+#background #right
+{
+    width: inherit;
+    height: inherit;
+    /* border-left: 1px solid black; */
+    /* padding-left: 10px; */
+    padding: 25px;
+    /* margin-top: 10px; */
+}
+
+#right #heading
+{
+    margin-top: 20px;
+    padding: 0;
+    font-size: 1.17em;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+#right #byline
+{
+    font-size: 10px;
+    color: grey;
+    margin-top: 2px;
+    display: block;
+}
+
+#right .pricediv, #right .pricediv #price
+{
+    color: tomato;
+}
+
+#right .pricediv #price
+{
+    font-size: 60px;
+    font-weight: 200;
+}
+
+#right #colorselector #cs
+{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: grey;
+}
+
+#colorselector #applecolors
+{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    padding-right: 10px;
+}
+
+#applecolors .colors img
+{
+    height: 35px;
+    padding: 2px;
+}
+
+#applecolors .selected
+{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#right #benefits #benefitsheading
+{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: grey;
+}
+
+#right #benefits #benefitslist
+{
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.addcart #addbtn
+{
+    padding: 10px;
+    width: 150px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+#right .pricediv
+{
+    padding-top: 25px;
+}
+
+#right #colorselector
+{
+    padding-top: 35px;
+}
+#right #benefits
+{
+    padding-top: 35px;
+}
+
+#right .addcart
+{
+    padding-top: 35px;
+}
